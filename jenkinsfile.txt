@@ -18,7 +18,7 @@ pipeline{
 		}
 		stage('result'){
 			steps{
-			bat 'java -cp target/java-project-1.0-SNAPSHOT.jar com.Sapient.hashing.App 123456'
+			bat 'java -cp target/java-project-1.0-SNAPSHOT.jar com.sapient.hashing.App 123456'
 			}
 		}
 				
